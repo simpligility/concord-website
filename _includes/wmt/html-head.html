@@ -11,21 +11,21 @@
     <meta name="author" content="{{site.domain}}" />
     <meta property="twitter:account_id" content="{{site.twitterId}}" />
     <!--  WMT resources -->
-    <link rel="stylesheet" href="{{site.context}}/assets/wmt/plugins/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href={{ "assets/wmt/plugins/bootstrap/css/bootstrap.css" | relative_url }} />
     <!--<link rel="stylesheet" href="{{site.context}}/assets/wmt/css/syntax.css" />-->
-    <link rel="stylesheet" href="{{site.context}}/assets/wmt/plugins/prism/prism.css" />
-    <link rel="stylesheet" href="{{site.context}}/assets/wmt/css/wmt.css" />
-    <link rel="stylesheet" href="{{site.context}}/assets/wmt/plugins/font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href={{ "assets/wmt/plugins/prism/prism.css" | relative_url }} />
+    <link rel="stylesheet" href={{ "assets/wmt/css/wmt.css" | relative_url }} />
+    <link rel="stylesheet" href={{ "assets/wmt/plugins/font-awesome/css/font-awesome.css" | relative_url }} />
 
     <!--  site specific resources -->
-    <link rel="stylesheet" href="{{site.context}}/assets/css/custom.css" />
-    <link rel="shortcut icon" href="{{site.context}}/assets/img/favicon.png" />
+    <link rel="stylesheet" href={{ "assets/css/custom.css" | relative_url }} />
+    <link rel="shortcut icon" href={{ "assets/img/favicon.png" | relative_url }} />
 
     <!-- scripts -->
-    <script type="text/javascript" src="{{site.context}}/assets/wmt/js/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="{{site.context}}/assets/wmt/js/modernizr.custom.js"></script>
-    <script type="text/javascript" src="{{site.context}}/assets/wmt/js/atom-read.js"></script>
-    <script type="text/javascript" src="{{site.context}}/assets/wmt/plugins/prism/prism.js"></script>
+    <script type="text/javascript" src={{ "assets/wmt/js/jquery-3.1.1.min.js" | relative_url }}></script>
+    <script type="text/javascript" src={{ "assets/wmt/js/modernizr.custom.js" | relative_url }}></script>
+    <script type="text/javascript" src={{ "assets/wmt/js/atom-read.js" | relative_url }}></script>
+    <script type="text/javascript" src={{ "assets/wmt/plugins/prism/prism.js" | relative_url }}></script>
 
     <!--[if lt IE 9]>
         <script src="{{site.context}}/assets/wmt/js/respond.js"></script>

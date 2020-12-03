@@ -1,8 +1,8 @@
 
     <!-- JS Global Compulsory -->
-    <script type="text/javascript" src="{{site.context}}/assets/wmt/plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="{{site.context}}/assets/wmt/js/back-to-top.js"></script>
-    <script type="text/javascript" src="{{site.context}}/assets/wmt/js/menu.js"></script>
+    <script type="text/javascript" src={{ "assets/wmt/plugins/bootstrap/js/bootstrap.min.js" | relative_url }}></script>
+    <script type="text/javascript" src={{ "assets/wmt/js/back-to-top.js" | relative_url }}></script>
+    <script type="text/javascript" src={{ "assets/wmt/js/menu.js" | relative_url }}></script>
     {% if site.matomo-analytics == true %}
       {% include wmt/matomo-analytics.html %}
     {% endif %}

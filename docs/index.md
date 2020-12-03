@@ -8,14 +8,14 @@ side-navigation: wmt/docs-navigation.html
 
 Welcome to the Concord documentation!
 
-- Learn [about Concord](../overview/index.html).
-- [Get started using Concord](./getting-started/index.html).
-- [Install Concord](./getting-started/installation.html)
-- Create your first project with the [quickstart guide](./getting-started/quickstart.html).
-- Write flows and more with the [Concord DSL](./processes-v1/index.html#dsl).
+- Learn [about Concord]({{ "overview/index.html" | relative_url }}).
+- [Get started using Concord]({{ "getting-started/index.html" | relative_url }}).
+- [Install Concord]({{ "getting-started/installation.html" | relative_url }})
+- Create your first project with the [quickstart guide]({{ "getting-started/quickstart.html" | relative_url }}).
+- Write flows and more with the [Concord DSL]({{ "processes-v1/index.html#dsl" | relative_url}} ).
 - Find out about [plugins](./plugins/index.html).
 - Reference the [API](./api/index.html).
-    - a [Postman](https://www.postman.com/) collection can be found [here](/assets/postman/concord-api.postman_collection.json).
+    - a [Postman](https://www.postman.com/) collection can be found [here]({{ "assets/postman/concord-api.postman_collection.json" | relative_url }}).
 
 Enjoy,
 
