@@ -8,6 +8,7 @@ id: concord
 name: Concord
 domain: concord.walmartlabs.com
 url: https://concord.walmartlabs.com
+baseurl: concord-website
 logo: /assets/img/logo.png
 description: "Concord is a workflow server."
 source_url: https://github.com/walmartlabs/concord-website/tree/master/
