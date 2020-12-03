@@ -18,7 +18,7 @@
 SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
-  json: '{{site.context}}/search.json',
+  json: '{{ "search.json" | relative_url }}',
   limit: 30
 })
 </script>
